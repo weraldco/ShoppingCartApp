@@ -21,7 +21,9 @@ export default function Cart() {
 						<div className="grid grid-cols-2 w-80 items-center place-self-end">
 							<div>
 								<span className="italic">Total:</span>
-								<span className="font-bold text-lg">$ {totalAmount}</span>
+								<span className="font-bold text-lg">
+									$ {totalAmount.toFixed(2)}
+								</span>
 							</div>
 							<div>
 								<button className="p-2 rounded-full border-2 px-5 hover:bg-gray-200">
